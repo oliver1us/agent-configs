@@ -1,0 +1,19 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "mcp": {
+    "servers": {
+      "sonarqube": {
+        "type": "local",
+        "command": [
+          "npx",
+          "-y",
+          "sonarqube-mcp-server"
+        ],
+        "environment": {
+          "SONARQUBE_URL": "{env:SONARQUBE_URL}",
+          "SONARQUBE_TOKEN": "{env:SONARQUBE_TOKEN}"
+        }
+      }
+    }
+  }
+}
