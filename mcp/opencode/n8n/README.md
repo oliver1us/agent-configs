@@ -17,7 +17,9 @@ If OAuth is unavailable, use the token from n8n's **API key** tab: replace only 
   "type": "remote",
   "url": "{env:N8N_MCP_URL}",
   "oauth": false,
-  "headers": { "Authorization": "Bearer {env:N8N_MCP_TOKEN}" }
+  "headers": {
+    "Authorization": "Bearer {env:N8N_MCP_TOKEN}"
+  }
 }
 ```
 
