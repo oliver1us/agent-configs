@@ -4,7 +4,7 @@ Connects OpenCode to Render's hosted MCP server to manage Render resources.
 
 ## Setup
 
-1. Install OpenCode and obtain a Render API key limited to the workspace and permissions you need.
+1. Install OpenCode and [create a Render API key](https://dashboard.render.com/u/settings?add-api-key) limited to the workspace and permissions you need.
 2. Export `RENDER_API_KEY` from your secret manager into the shell that will launch OpenCode. If you already have a trusted local `.env` in this folder, you can load it instead:
    ```sh
    set -a; . ./.env; set +a
